@@ -1,0 +1,373 @@
+body
+{
+    font-family: "Bai Jamjuree";
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/*start header*/
+header
+{
+    background-image: url(../imagiesforstartproject2/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+header .container1
+{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    
+}
+header .container1 div:first-child
+{
+    margin: 70px ;
+    margin-bottom: 20px;
+    font-size:150px ;
+    font-family: sans-serif;
+    color:  hsl(171, 66%, 44%);
+
+}
+header .container1 h1
+{
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 36px;
+    margin-top: 0px;
+    opacity: .8; 
+    padding: 0px 20px 0px 20px ;
+}
+header .container1 p:first-of-type
+{
+    text-align: center;
+    font-size: 18px;
+    opacity: .4;
+
+}
+.sub-cont
+{
+    margin: 50px;
+    font-size: 17px;
+    display: flex;
+}
+.sub-cont input:first-of-type
+{
+    color:rgb(220 220 220);
+    background-color: hsl(171, 66%, 44%);
+    height: 40px;
+    border-radius: 30px;
+    width: 180px;
+    border:1px solid hsl(171, 66%, 44%);
+    box-shadow:2px 2px 20px 3px hsl(171deg 66% 44%);
+    margin-right: 10px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.sub-cont input:last-of-type
+{
+    color:rgb(220 220 220);
+    height: 50px;
+    background-color:  hsl(233, 100%, 69%);
+    height: 40px;
+    border-radius: 30px;
+    width: 180px;
+    border:1px solid hsl(233, 100%, 69%);
+    box-shadow:2px 2px 20px 3px hsl(233, 100%, 69%);
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.sub-cont input:active
+{
+    box-shadow: none;
+}
+@media only screen and (max-width: 375px)
+{
+    header .container1 h1
+    {
+        font-size: 29px;
+
+    }
+    header .container1 p:first-of-type
+    {
+        padding: 10px;
+     
+    }
+    .sub-cont
+    {
+        flex-direction:column ;
+        margin: 20px;
+       
+    }
+    .sub-cont input:first-of-type
+    {
+        margin: 10px;
+        margin-bottom: 30px;
+        width: 279px;
+    }
+    .sub-cont input:last-of-type
+    {
+        width: 279px;
+    }
+}
+@media only screen and(max-width:1440px)
+{
+    header .container1 h1
+    {
+        font-size: 30px;
+    }
+    header .container1 p:first-of-type
+    {
+        width:617px
+    }
+}
+/*end header*/
+/*start section*/
+section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    text-align: center;
+}
+section h2
+{
+    opacity: .8;
+}
+section p
+{
+    text-align: center;
+    width: 609px;
+    opacity: .5;
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 375px)
+{
+    section p
+    {
+        width: 290px;
+    }
+}
+/*end section*/
+
+/*start container2*/
+.container2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 250px;
+}
+.container2 img:first-of-type
+{
+    width: 50%;
+    margin-right: 100px;
+}
+.cont-parag
+{
+    display: flex;
+    flex-direction:column ;
+    width: 50%;
+    padding-top: 28px;
+}
+.cont-parag h3
+{
+    opacity: .8;
+}
+.cont-parag p
+{
+    opacity: .5;
+}
+.cont-parag p:first-of-type
+{
+    width: 350px;
+    margin-top: 0px;
+}
+.cont-parag p:nth-child(4)
+{
+    width: 320px;
+    margin-top: 0px;
+}
+.cont-parag p:last-of-type
+{
+    width: 340px;
+    margin-top: 0px;
+}
+@media only screen and (max-width: 375px)
+{
+    .container2
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .container2 img:first-of-type
+    {
+        text-align: center;
+        margin: 50px auto;
+        width: 300px;
+    }
+    .cont-parag
+    {
+        align-items: center;
+        width: 100%;
+
+    }
+    .cont-parag p:first-of-type
+    {
+        text-align: center;
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .cont-parag p:nth-child(4)
+    {
+        text-align: center;
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .cont-parag p:last-of-type
+    {
+        text-align: center;
+        width: 300px;
+    }
+}
+/*end container2*/
+/*img in body*/
+.img
+{
+    text-align: center;
+}
+.img img
+{
+    
+    width: 700px;
+}
+
+@media only screen and (max-width: 375px)
+{
+    .img img
+    {
+        
+        width: 345px;
+    }
+}
+/*img in body*/
+/* start container5*/
+.container5
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.container5 h3
+{
+    opacity: .8;
+}
+.container5  p
+{
+    width: 300px;
+    opacity: .5;
+    height: 200px;
+}
+/* end container5*/
+/*container6*/
+.container6
+{
+    text-align: center;
+}
+.container6 p
+{
+    margin: auto 19px 100px;
+}
+/*container6*/
+/* start icons section*/
+.icons
+{
+    display: flex;
+    justify-content: space-around;
+    padding: auto 30px auto 30px;
+    margin-bottom: 130px;
+}
+.icons img
+{
+    width: 80px;
+}
+@media only screen and (max-width:375px)
+{
+    .icons
+    {
+        flex-direction:column ;
+        align-items: center;
+        
+    }
+    .icons img {
+        width: 141px;
+        margin-bottom: 100px;
+    }
+}
+
+/* end icons section*/
+/*second input*/
+.sub-cont:last-of-type
+{
+    justify-content: center;
+    margin-bottom: 200px;
+    
+}
+
+@media only screen and (max-width:375px)
+{
+    .sub-cont:last-of-type input
+    {
+       width: 313px;
+    }
+}
+/*second input*/
+/*start footer*/
+.container7
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(198, 17%, 89%);
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container7 div:first-of-type
+{
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size: 81px;
+    color:  hsl(171, 66%, 44%);
+}
+.links
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.links span
+{
+    margin: 20px;
+    margin-right: 50px;
+    opacity: .6;
+}
+.social-icon img
+{
+    margin: 10px;
+    cursor: pointer;
+}
+@media only screen and (max-width:375px)
+{
+    .links
+    {
+        justify-content: center;
+        margin-right: 50px;
+        margin-left: 75px;  
+        margin-bottom: 50px;
+    }
+}
+/*end footer*/
